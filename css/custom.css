@@ -1,3 +1,9 @@
+#apworld {
+  background-color: black;
+}
+
+
+
 /*change header color fill */
 .navbar-inverse{background-color:#ff3232;
 				border-color:#ff3232}
@@ -8,4 +14,14 @@
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: #FFF;
+}
+
+.nav-box {
+  text-align: center;
+  color: green;
+  font-weight: 700;
+}
+.nav-box:hover {
+  cursor: pointer;
+  opacity: 0.8;
 };
