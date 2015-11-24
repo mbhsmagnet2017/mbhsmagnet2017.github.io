@@ -1,12 +1,72 @@
-#apworld {
-  background-color: black;
+
+header{
+	padding-bottom: 300px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+body {
+    overflow-x: hidden;
+    height: 100%; 	
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*section pages display options */
+section {
+  display: none;
+  min-height: 100%;
+}
+section#home {
+  display: block;
+  margin: 0 auto -60px;
+  height: auto !important;
+}
+/*success and error??*/
+#success,
+#error {
+  display: none;
+}
+#success {
+  color: green;
+}
+#error {
+  color: red;
+}
+#Agenda {
+  background-color: #e05038;
+}
+#announcements {
+  background-color: #9068be;
+
+}
+#genetics{
+  background-color: #118C4E;
+}
+#chemistry{
+  background-color: #4A96AD;
+}
+#algs{
+	background-color: #A8CD1B;
+}
+#APWorld{
+	background-color: black;
+}
+#APLang{
+	background-color: #ff6666;
+}
+.navbar-brand{
+	font-size: 25px;
+}
+.footer {
+    font-size:14px;
 }
 
-
-
+.navbar-brand {
+    font-size: 24px;
+}
 /*change header color fill */
-.navbar-inverse{background-color:#ff3232;
-				border-color:#ff3232}
+.navbar-inverse{background-color:#b20000;
+				border-color:#b20000}
 
 /*change nav bar word fill */
 .navbar-inverse .navbar-brand {
@@ -17,11 +77,37 @@
 }
 
 .nav-box {
+  width: 50;
   text-align: center;
-  color: green;
+  color: white;
   font-weight: 700;
+  padding-right: 30px;
+  padding-left: 30px;
+
+}
+.nav-md-box{
+	padding-top: 30px;
+	height: 154px;
+}
+.nav-lg-box {
+    padding-top: 85px;
+    height: 308px;
+    font-size: 18px;
+    font-weight: 700;
+}
+/*change font size of paragraph bodies*/
+p {
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+/*navbar header dimensions*/
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+    height: 90px;
 }
 .nav-box:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.6;
 };
