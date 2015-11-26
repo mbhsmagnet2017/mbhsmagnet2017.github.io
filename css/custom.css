@@ -1,6 +1,6 @@
 
-header{
-	padding-bottom: 300px;
+#header a{
+	color: white;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -56,14 +56,17 @@ section#home {
 #APWorld{
 	background-color: black;
 }
-#APLang{
-	background-color: #ff6666;
-}
+
 .navbar-brand{
 	font-size: 25px;
 }
 .footer {
-    font-size:14px;
+    font-size:12px;
+
+}
+.normaltxt {
+    font-size:16px;
+
 }
 
 .navbar-brand {
@@ -105,6 +108,16 @@ p {
     font-size: 20px;
     line-height: 1.75;
 }
+/*change a element */
+a.header {
+    color: white;
+    text-decoration: none;
+}
+a:link,a:visited {
+    color: red;
+}
+
+
 
 /*navbar header dimensions*/
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
@@ -149,6 +162,7 @@ p {
 }
 /*icon configs*/
 .home-icon{
+	padding-top: 1px;
 	display:inline-block;
     font-size: 14px;
     line-height: 10px;
@@ -157,11 +171,107 @@ p {
     border-radius: 10px;
     text-align: center;
     vertical-align: middle;
+    width:50px;
+    height:50px;
+
+}
+.agenda-icon{
+	padding-top: 2px;
+	display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:#e05038;
+    color:green;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width:50px;
+    height:50px;
+
+}
+.announcements-icon{
+	padding-top: 3px;
+	display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:#9068be;
+    color:green;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width:50px;
+    height:50px;
+
+}
+.genetics-icon{
+	padding-top: 2px;
+	display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:#118C4E;
+    color:green;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width:50px;
+    height:50px;
+
+}
+.apchem-icon{
+	padding-top: 2px;
+	display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:#4A96AD;
+    color:green;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width:50px;
+    height:50px;
+
+}
+.aoa-icon{
+	padding-top: 4px;
+	padding-left: 2px;
+	display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:#A8CD1B;
+    color:green;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    float:left;
+    width:50px;
+    height:50px;
+
+
+}
+.apworld-icon{
+	padding-top: 2px;
+	display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:black;
+    color:green;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    width:50px;
+    height:50px;
 }
 /*home icon padding configs */
+.col-md-7{
+	padding-top: 18px;
+	padding-left: 0px;
+	padding-right: 30px;
+	text-align: center;
+}
 .col-md-1{
-	padding-top: 17px;
-	padding-left: 30px;
+	padding-top: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 /*hover settings*/  
 .nav-box:hover {
