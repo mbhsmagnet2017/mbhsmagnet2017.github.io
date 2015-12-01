@@ -66,7 +66,8 @@ section#home {
 }
 .normaltxt {
     font-size:16px;
-
+    color:black;
+    text-align: left;
 }
 
 .navbar-brand {
@@ -102,6 +103,10 @@ section#home {
     height: 308px;
     font-size: 18px;
     font-weight: 700;
+}
+.footer-box{
+  padding-left: 10px;
+  padding-top: 10px
 }
 /*change font size of paragraph bodies*/
 p {
@@ -195,7 +200,7 @@ a:link,a:visited {
     font-size: 14px;
     line-height: 10px;
     background-color:#9068be;
-    color:green;
+    color:white;
     border-radius: 10px;
     text-align: center;
     vertical-align: middle;
@@ -261,6 +266,22 @@ a:link,a:visited {
     width:50px;
     height:50px;
 }
+.announcements-icon-footer{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width:460px;
+    height:40px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
 /*home icon padding configs */
 .col-md-7{
 	padding-top: 18px;
@@ -272,6 +293,12 @@ a:link,a:visited {
 	padding-top: 0px;
 	padding-left: 40px;
 	padding-right: 40px;
+}
+.col-md-5{
+  height:320px;
+   border-radius: 10px;
+   border-style: solid;
+   border-color: red;
 }
 /*hover settings*/  
 .nav-box:hover {
