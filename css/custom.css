@@ -304,4 +304,19 @@ a:link,a:visited {
 .nav-box:hover {
   cursor: pointer;
   opacity: 0.6;
+}
+/*random tests*/
+@media (max-width: 1115px){
+body .x-navbar .x-nav-wrap.desktop {
+     display: none;
+}
+
+body .x-navbar .x-btn-navbar {
+     float:right;
+     display:block;
+}
+
+body .x-navbar .x-nav-wrap.mobile {
+     display: block;
+}
 };
