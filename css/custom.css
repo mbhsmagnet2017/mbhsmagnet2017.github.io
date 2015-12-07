@@ -69,6 +69,31 @@ section#home {
     color:black;
     text-align: left;
 }
+.gentxt {
+    font-size:16px;
+    color:#118C4E;
+    text-align: left;
+}
+.agendatxt {
+    font-size:16px;
+    color:#e05038;
+    text-align: left;
+}
+.chemtxt {
+    font-size:16px;
+    color:#4A96AD;
+    text-align: left;
+}
+.algstext {
+    font-size:16px;
+    color:#A8CD1B;
+    text-align: left;
+}
+.worldtxt {
+    font-size:16px;
+    color:black;
+    text-align: left;
+}
 
 .navbar-brand {
     font-size: 24px;
@@ -282,6 +307,22 @@ a:link,a:visited {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
+.RecentUpdates-icon-footer{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width:170px;
+    height:40px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
 /*home icon padding configs */
 .col-md-7{
 	padding-top: 18px;
@@ -299,6 +340,14 @@ a:link,a:visited {
    border-radius: 10px;
    border-style: solid;
    border-color: red;
+}
+.col-md-offset-1{
+  padding-left: 15px;
+  padding-right: 15px;
+  height:320px;
+   border-radius: 10px;
+   border-style: solid;
+   border-color: black;
 }
 /*hover settings*/  
 .nav-box:hover {
