@@ -160,6 +160,27 @@ a:link,a:visited {
     margin-left: 0;
     height: 90px;
 }
+/*special icon dimension*/
+.special-icon{
+  
+  padding-top: 0px;
+  
+  display:inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    background-color:white;
+    color:green;
+    border-radius: 70px;
+    text-align: center;
+    vertical-align: middle;
+    width:60px;
+    height:60px;
+    
+}
+.circle{
+  
+}
+
 /*for apworld*/
 /*Important:*/
 .apworldlink{
