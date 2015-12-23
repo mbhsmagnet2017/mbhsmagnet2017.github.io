@@ -5,16 +5,21 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
+    background-color: white;
 }
 /*header spacing*/
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: white;
 }
 body {
     overflow-x: hidden;
     height: 100%; 	
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url('https://co.midland.mi.us/Portals/0/Midland%20County/Photo%20Gallery/Album/10/Blue-Winter.jpg');
+    background-size: cover;
+
 }
 /*section pages display options */
 section {
@@ -62,6 +67,7 @@ section#home {
 }
 .footer {
     font-size:12px;
+
 
 }
 .normaltxt {
@@ -215,6 +221,7 @@ a:link,a:visited {
 	font-size: 16px;
 	text-align: left;
 	font-family: "Helvetica";
+  background-color: white;
 }
 /*icon configs*/
 .home-icon{
@@ -355,6 +362,7 @@ a:link,a:visited {
 	padding-left: 0px;
 	padding-right: 30px;
 	text-align: center;
+
 }
 .col-md-1{
 	padding-top: 0px;
@@ -366,7 +374,12 @@ a:link,a:visited {
    border-radius: 10px;
    border-style: solid;
    border-color: red;
+   background-color: white;
 }
+.col-lg-4{
+   background-color: white;
+}
+
 .col-md-offset-1{
   padding-left: 15px;
   padding-right: 15px;
@@ -374,6 +387,7 @@ a:link,a:visited {
    border-radius: 10px;
    border-style: solid;
    border-color: black;
+   background-color: white;
 }
 /*hover settings*/  
 .nav-box:hover {
@@ -394,4 +408,19 @@ body .x-navbar .x-btn-navbar {
 body .x-navbar .x-nav-wrap.mobile {
      display: block;
 }
-};
+
+}
+
+
+
+#agendacontback, #gencontback, #snhscontback, #worldcontback, #chemcontback, #aoacontback{
+   background-color: white;
+}
+
+
+
+
+
+
+
+;
