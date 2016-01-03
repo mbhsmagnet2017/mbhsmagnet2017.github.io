@@ -392,7 +392,7 @@ a:link,a:visited {
 /*hover settings*/  
 .nav-box:hover {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 /*random tests*/
 @media (max-width: 1115px){
@@ -416,6 +416,14 @@ body .x-navbar .x-nav-wrap.mobile {
 #agendacontback, #gencontback, #snhscontback, #worldcontback, #chemcontback, #aoacontback{
    background-color: white;
 }
+
+/*drop down menu configurations*/
+.dropdown-menu {
+
+    min-width: 0px;
+}
+
+/*footer absolute setting*/
 
 
 
