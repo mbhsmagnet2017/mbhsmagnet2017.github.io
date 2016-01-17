@@ -219,7 +219,7 @@ a:link,a:visited {
 }
 .table-bordered{
 	font-size: 16px;
-	text-align: left;
+	text-align: LEFT;
 	font-family: "Helvetica";
   background-color: white;
 }
